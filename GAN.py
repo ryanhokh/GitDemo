@@ -17,6 +17,7 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 
 
 'Testing message ~~~~~'
+' Testing message again'
 
 
 from __future__ import division, print_function, absolute_import
