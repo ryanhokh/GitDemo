@@ -15,6 +15,10 @@ Author: Aymeric Damien
 Project: https://github.com/aymericdamien/TensorFlow-Examples/
 """
 
+
+'Testing message ~~~~~'
+
+
 from __future__ import division, print_function, absolute_import
 
 import matplotlib.pyplot as plt
