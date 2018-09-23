@@ -16,8 +16,12 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 """
 
 
+
 'Testing message ~~~~~'
 ' Testing message again'
+
+'Where the fuck is testing message?'
+
 
 
 from __future__ import division, print_function, absolute_import
