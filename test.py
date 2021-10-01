@@ -11,6 +11,10 @@ def gen_ran():
     return random.randint(1,10)
 
 
-if __name__ == '__main__'
-func()
-print(square(gen_ran()))
+if __name__ == '__main__':
+    func()
+    print(square(gen_ran()))
+    x = pd.read_csv('df.csv')
+    print(x)
+    
+
