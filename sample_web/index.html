@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FAKE Risk Portal</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Welcome to FAKE RISK PORTAL!!!</h1>
+        <div id="tabs-container">
+          <button class="tab-button" id="tab-1-button">Stock Price Plot</button>
+          <button class="tab-button" id="tab-2-button">Descriptive Stats</button>
+          <button class="tab-button" id="tab-3-button">Tab 3</button>
+        </div>
+
+      <div class="tab-content" id="tab-1-content">
+        <form>
+            <label for="stock_name1">Stock Name 1:</label>
+            <input type="text" id="stock_name1" name="stock_name1" value="MSFT">
+            <label for="stock_name2">Stock Name 2:</label>
+            <input type="text" id="stock_name2" name="stock_name2" value="GOOG">
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date" value="2023-01-01">
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date" value="2023-01-20">
+            <button type="button" id="submit_btn" onclick="getStockData()">Submit</button>
+        </form>
+        <div id="plot1"></div>
+        <div id="plot2"></div>
+      </div>
+
+      <div class="tab-content" id="tab-2-content">
+          <form>
+              <label for="stock_name">Stock Name:</label>
+              <input type="text" id="stock_name" name="stock_name" value="GOOG">
+              <label for="start_date2">Start Date:</label>
+              <input type="date" id="start_date2" name="start_date2" value="2023-01-01">
+              <label for="end_date2">End Date:</label>
+              <input type="date" id="end_date2" name="end_date2" value="2023-01-20">
+              <button type="button" id="submit_btn2" onclick="displayStatistics()" >Submit</button>
+          </form>
+
+
+      </div>
+      <div class="tab-content" id="tab-3-content">
+        <!-- Tab 3 content goes here -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <h2>End of webpage</h2>
+
+
+    </div>
+
+</body>
+
+</html>
